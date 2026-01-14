@@ -1,16 +1,9 @@
 import { NextResponse } from "next/server";
-import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+import type { NextRequest } from "next/server";
 
-const isHomeRoute = createRouteMatcher(["/"]);
-
-export default clerkMiddleware((auth, req) => {
-    const { userId } = auth();
-
-    // if there is user and home route is accessed, redirect to dashboard or any other protected route
-    if (userId && isHomeRoute(req)) {
-        return NextResponse.rewrite(new URL("/", req.url));
-    }
-});
+export function middleware(request: NextRequest) {
+    return NextResponse.next();
+}
 
 export const config = {
     matcher: ["/((?!.*\\..*|_next).*)", "/", "/(api|trpc)(.*)"],

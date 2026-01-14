@@ -15,6 +15,10 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        playfair: ['var(--font-playfair)'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

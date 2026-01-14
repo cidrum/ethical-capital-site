@@ -2,38 +2,36 @@ import { Metadata } from "next";
 
 export const SITE_CONFIG: Metadata = {
     title: {
-        // write a default title for astra a ai powered website builder suggest something unique and catchy don't use the same words of ai powered website builder give a unique name
-        default: "AstraAI - AI Powered Website Builder",
-        template: `%s | AstraAI`
+        default: "Ethical Capital - Serial Entrepreneur Acquiring Small Businesses & Distressed Real Estate",
+        template: `%s | Ethical Capital`
     },
-    description: "AstraAI is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+    description: "Serial entrepreneur actively seeking to acquire multiple small businesses and distressed commercial real estate properties, particularly flex warehouses. Strategic mindset with expertise in healthcare and commercial properties.",
     icons: {
         icon: [
             {
-                url: "/icons/favicon.ico",
-                href: "/icons/favicon.ico",
+                url: "/images/favicon.jpg",
+                href: "/images/favicon.jpg",
             }
         ]
     },
     openGraph: {
-        title: "AstraAI - AI Powered Website Builder",
-        description: "AstraAI is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+        title: "Ethical Capital - Serial Entrepreneur Acquiring Small Businesses & Distressed Real Estate",
+        description: "Serial entrepreneur actively seeking to acquire multiple small businesses and distressed commercial real estate properties, particularly flex warehouses.",
         images: [
             {
-                url: "/assets/og-image.png",
+                url: "/images/webclip.jpg",
             }
         ]
     },
     twitter: {
         card: "summary_large_image",
-        creator: "@ayotadev",
-        title: "AstraAI - AI Powered Website Builder",
-        description: "AstraAI is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+        title: "Ethical Capital - Serial Entrepreneur Acquiring Small Businesses & Distressed Real Estate",
+        description: "Serial entrepreneur actively seeking to acquire multiple small businesses and distressed commercial real estate properties, particularly flex warehouses.",
         images: [
             {
-                url: "/assets/og-image.png",
+                url: "/images/webclip.jpg",
             }
         ]
     },
-    metadataBase: new URL("https://astra-ai-delta.vercel.app/"),
+    metadataBase: new URL("https://ethicalcapital.com"),
 };
