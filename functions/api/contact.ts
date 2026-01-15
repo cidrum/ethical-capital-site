@@ -63,7 +63,14 @@ export async function onRequestPost(context: { request: Request; env: Env }) {
           { status: 200, headers: { "Content-Type": "application/json" } }
         );
       } else {
-        throw new Error("Failed to send email");
+        console.error("Web3Forms error:", data);
+        return new Response(
+          JSON.stringify({
+            error: "Failed to send email",
+            details: data
+          }),
+          { status: 500, headers: { "Content-Type": "application/json" } }
+        );
       }
     }
 
@@ -77,7 +84,10 @@ export async function onRequestPost(context: { request: Request; env: Env }) {
   } catch (error) {
     console.error("Error processing contact form:", error);
     return new Response(
-      JSON.stringify({ error: "Failed to process form submission" }),
+      JSON.stringify({
+        error: "Failed to process form submission",
+        message: error instanceof Error ? error.message : String(error)
+      }),
       { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
