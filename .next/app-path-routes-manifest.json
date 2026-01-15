@@ -1,1 +1,1 @@
-{"/_not-found/page":"/_not-found","/(root)/contact/page":"/contact","/blog/page":"/blog","/(root)/about/page":"/about","/(root)/page":"/","/(root)/industries/page":"/industries","/(root)/operator/page":"/operator","/(root)/real-estate/page":"/real-estate"}
+{"/_not-found/page":"/_not-found","/api/contact/route":"/api/contact","/(root)/about/page":"/about","/blog/page":"/blog","/(root)/industries/page":"/industries","/(root)/real-estate/page":"/real-estate","/(root)/page":"/","/(root)/operator/page":"/operator","/(root)/contact/page":"/contact"}
