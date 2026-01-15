@@ -22,7 +22,7 @@ Project name: ethical-capital-site
 Production branch: main
 Framework preset: Next.js (Static HTML Export)
 Build command: npm run build
-Build output directory: .next
+Build output directory: out
 Root directory: (leave empty)
 ```
 
