@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export function Navbar() {
   return (
-    <header className="fixed top-10 left-0 right-0 px-4 py-4 bg-background/40 backdrop-blur-lg border border-white rounded-2xl shadow-xl z-50 w-full max-w-[440px] md:max-w-6xl mx-auto">
-      <div className="flex items-center justify-between h-full">
-        <div className="flex items-start">
-          <Link href="/" className="flex items-center gap-2">
+    <header className="w-full bg-white border-b border-blue-marine-10 sticky top-0 z-50">
+      <div className="max-w-[1728px] mx-auto px-[3.33%]">
+        <nav className="flex items-center justify-between h-24">
+          <Link href="/" className="flex items-center">
             <Image
               src="/images/Web-version.svg"
               alt="Ethical Capital Logo"
@@ -15,37 +15,47 @@ export function Navbar() {
               priority
             />
           </Link>
-        </div>
 
-        {/* Nav for larger screens */}
-        <nav className="hidden md:flex">
-          <ul className="flex items-center justify-center gap-8">
-            <li className="hover:text-foreground/80 text-sm uppercase">
-              <Link href="/about">About Us</Link>
-            </li>
-            <li className="hover:text-foreground/80 text-sm uppercase">
-              <Link href="/industries">Industries</Link>
-            </li>
-            <li className="hover:text-foreground/80 text-sm uppercase">
-              <Link href="/operator">Operator</Link>
-            </li>
-            <li className="hover:text-foreground/80 text-sm uppercase">
-              <Link href="/real-estate">Real Estate</Link>
-            </li>
-            <li className="hover:text-foreground/80 text-sm uppercase">
-              <Link href="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
+          <div className="hidden md:flex items-center gap-12">
+            <Link
+              href="/about"
+              className="text-sm uppercase tracking-wider text-dark-blue hover:text-blue-marine transition-colors font-inter font-medium"
+            >
+              About Us
+            </Link>
+            <Link
+              href="/industries"
+              className="text-sm uppercase tracking-wider text-dark-blue hover:text-blue-marine transition-colors font-inter font-medium"
+            >
+              Industries
+            </Link>
+            <Link
+              href="/operator"
+              className="text-sm uppercase tracking-wider text-dark-blue hover:text-blue-marine transition-colors font-inter font-medium"
+            >
+              Operator
+            </Link>
+            <Link
+              href="/real-estate"
+              className="text-sm uppercase tracking-wider text-dark-blue hover:text-blue-marine transition-colors font-inter font-medium"
+            >
+              Real Estate
+            </Link>
+            <Link
+              href="/contact"
+              className="text-sm uppercase tracking-wider text-dark-blue hover:text-blue-marine transition-colors font-inter font-medium"
+            >
+              Contact
+            </Link>
+          </div>
 
-        <div className="flex items-center gap-4">
           <Link
             href="tel:+13522634219"
-            className="hidden md:flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-foreground/10 transition-colors"
+            className="hidden md:flex items-center gap-2 px-6 py-3 bg-blue-marine text-white hover:bg-dark-blue transition-colors font-inter font-medium text-sm"
           >
-            <span className="text-sm">Call Now</span>
+            Call Now
           </Link>
-        </div>
+        </nav>
       </div>
     </header>
   );

@@ -3,119 +3,211 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <section className="w-full relative flex flex-col items-center justify-center px-4 md:px-0 py-8 mt-20">
+    <main className="w-full">
       {/* Hero Section */}
-      <div className="w-full max-w-7xl mx-auto mb-24">
-        <div className="flex flex-col items-center text-center mb-12">
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 font-playfair leading-tight">
-            Ethics drive prosperous acquisition entrepreneurs.
-          </h1>
+      <section className="w-full">
+        <div className="w-full">
+          <div className="max-w-[1120px] mx-auto px-[3.33%]">
+            <div className="pt-24 pb-12">
+              <h1 className="font-playfair text-[96px] leading-[105%] text-dark-blue">
+                Ethics drive prosperous acquisition entrepreneurs.
+              </h1>
+            </div>
+          </div>
+          <div className="relative w-full">
+            <Image
+              src="/images/Untitled-design.png"
+              alt="Two coworkers building up an acquired business."
+              width={1920}
+              height={1080}
+              className="w-full h-auto"
+              priority
+            />
+            <div className="absolute bottom-0 left-0 right-0 pb-16">
+              <div className="max-w-[1120px] mx-auto px-[3.33%]">
+                <div className="max-w-2xl">
+                  <p className="text-lg leading-[160%] text-white">
+                    As a serial entrepreneur with a strategic mindset, I actively seek multiple small business acquisition opportunities
+                    and distressed commercial real estate properties. With extensive expertise in healthcare services and a strong network,
+                    I aim to unlock the full potential of acquired ventures, ensuring prosperity for businesses and stakeholders alike.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div className="relative w-full h-[500px] md:h-[600px] mb-12 rounded-2xl overflow-hidden">
-          <Image
-            src="/images/Untitled-design.png"
-            alt="Building successful businesses through strategic acquisitions"
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
-
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
-            As a serial entrepreneur with a strategic mindset, I actively seek multiple small business acquisition opportunities
-            and distressed commercial real estate properties. With extensive expertise in healthcare services and a strong network,
-            I aim to unlock the full potential of acquired ventures, ensuring prosperity for businesses and stakeholders alike.
-          </p>
-        </div>
-      </div>
+      {/* Spacer */}
+      <div className="h-32"></div>
 
       {/* Overview Section */}
-      <div className="w-full max-w-7xl mx-auto mb-24 px-4">
-        <div className="grid md:grid-cols-2 gap-12">
-          <div>
-            <h2 className="text-4xl font-bold mb-6 text-blue-900">
-              Multiple Acquisition Targets
-            </h2>
-          </div>
-          <div className="space-y-6">
-            <p className="text-lg text-gray-700">
-              I&apos;m building a portfolio of profitable small businesses across healthcare services, wholesale distribution,
-              and liquidation services. Each acquisition represents an opportunity to apply proven operational expertise
-              and drive sustainable growth.
-            </p>
-            <p className="text-lg text-gray-700">
-              Beyond operating businesses, I specialize in acquiring distressed commercial real estate, particularly flex warehouses,
-              where strategic repositioning creates significant value.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* Focus Areas */}
-      <div className="w-full bg-gray-50 py-24">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <div className="inline-block mb-4">
-              <span className="text-sm uppercase tracking-wider text-gray-600">Investment Focus</span>
+      <section className="w-full">
+        <div className="max-w-[1120px] mx-auto px-[3.33%]">
+          <div className="grid md:grid-cols-2 gap-12">
+            <div>
+              <h2 className="text-[76px] leading-[110%] text-blue-marine font-source-serif">
+                A serial entrepreneur building a portfolio of businesses and properties.
+              </h2>
             </div>
-            <h2 className="text-4xl font-bold mb-4">What I&apos;m Acquiring</h2>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/industries" className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold mb-4">Small Businesses</h3>
-              <p className="text-gray-700 mb-4">
-                Healthcare services, wholesale distribution, and liquidation services SMBs with strong fundamentals
-                and growth potential.
+            <div className="space-y-6">
+              <p className="text-lg leading-[160%]">
+                I&apos;m building a portfolio of profitable small businesses across healthcare services, wholesale distribution,
+                and liquidation services. Each acquisition represents an opportunity to apply proven operational expertise
+                and drive sustainable growth.
               </p>
-              <span className="text-blue-600 font-semibold">Learn More →</span>
-            </Link>
-
-            <Link href="/real-estate" className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold mb-4">Flex Warehouses</h3>
-              <p className="text-gray-700 mb-4">
-                Distressed commercial real estate properties, particularly flex warehouses offering unique value creation opportunities.
+              <p className="text-lg leading-[160%]">
+                Beyond operating businesses, I specialize in acquiring distressed commercial real estate, particularly flex warehouses,
+                where strategic repositioning creates significant value.
               </p>
-              <span className="text-blue-600 font-semibold">Learn More →</span>
-            </Link>
-
-            <Link href="/operator" className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <h3 className="text-2xl font-bold mb-4">Proven Operator</h3>
-              <p className="text-gray-700 mb-4">
-                15+ years of experience successfully founding and leading businesses to $10M+ revenue with strategic expertise.
+              <p className="text-lg leading-[160%]">
+                With over 15 years of experience founding and leading businesses to $10M+ revenue, including Surgical Resources Group
+                and Advocates for World Health, I bring proven expertise to every acquisition. MBA from Northwestern University Kellogg
+                School of Management (with distinction).
               </p>
-              <span className="text-blue-600 font-semibold">Learn More →</span>
-            </Link>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
+
+      {/* Spacer */}
+      <div className="h-32"></div>
+
+      {/* Find Out More Section */}
+      <section className="w-full">
+        <div className="max-w-[1120px] mx-auto px-[3.33%]">
+          <div>
+            <div className="mb-12">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-12 h-px bg-blue-marine"></div>
+                <div className="uppercase text-blue-marine tracking-[2px] font-inter text-sm font-medium">
+                  our company
+                </div>
+              </div>
+              <h2 className="uppercase text-blue-marine tracking-[2px] font-inter text-lg font-medium">
+                find out more
+              </h2>
+            </div>
+            <div className="grid md:grid-cols-2 gap-8">
+              <Link
+                href="/about"
+                className="group p-12 bg-white hover:bg-blue-marine-05 transition-colors duration-300 block"
+              >
+                <div className="mb-8">
+                  <h3 className="text-[60px] leading-[105%] font-source-serif">About Us</h3>
+                </div>
+                <div className="uppercase text-blue-marine tracking-[2px] font-inter text-sm font-medium">
+                  learn More →
+                </div>
+              </Link>
+              <Link
+                href="/industries"
+                className="group p-12 bg-blue-marine-10 hover:bg-blue-marine-20 transition-colors duration-300 block"
+              >
+                <div className="mb-8">
+                  <h3 className="text-[60px] leading-[105%] font-source-serif">Industries</h3>
+                </div>
+                <div className="uppercase text-blue-marine tracking-[2px] font-inter text-sm font-medium">
+                  learn More →
+                </div>
+              </Link>
+              <Link
+                href="/operator"
+                className="group p-12 bg-blue-marine-10 hover:bg-blue-marine-20 transition-colors duration-300 block"
+              >
+                <div className="mb-8">
+                  <h3 className="text-[60px] leading-[105%] font-source-serif">Operator</h3>
+                </div>
+                <div className="uppercase text-blue-marine tracking-[2px] font-inter text-sm font-medium">
+                  learn More →
+                </div>
+              </Link>
+              <Link
+                href="/contact"
+                className="group p-12 bg-white hover:bg-blue-marine-05 transition-colors duration-300 block"
+              >
+                <div className="mb-8">
+                  <h3 className="text-[60px] leading-[105%] font-source-serif">Contact</h3>
+                </div>
+                <div className="uppercase text-blue-marine tracking-[2px] font-inter text-sm font-medium">
+                  learn More →
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Spacer */}
+      <div className="h-32"></div>
+
+      {/* Offices Section */}
+      <section className="w-full">
+        <div className="max-w-[1120px] mx-auto px-[3.33%]">
+          <div>
+            <div className="mb-12">
+              <div className="flex items-center gap-4 mb-4">
+                <div className="w-12 h-px bg-blue-marine"></div>
+                <div className="uppercase text-blue-marine tracking-[2px] font-inter text-sm font-medium">
+                  contact us
+                </div>
+              </div>
+              <h2 className="uppercase text-blue-marine tracking-[2px] font-inter text-lg font-medium">
+                our offices
+              </h2>
+            </div>
+            <div className="bg-blue-sky-10 p-12">
+              <div className="mb-8">
+                <h3 className="text-[60px] leading-[105%] text-blue-marine font-source-serif mb-6">
+                  Tampa
+                </h3>
+                <div className="space-y-4">
+                  <a
+                    href="https://goo.gl/maps/vbeLVmMwXZugYRyR9"
+                    target="_blank"
+                    className="text-lg leading-[160%] hover:text-blue-marine transition-colors block"
+                  >
+                    610 E. Zack St, Suite 110-3072<br />
+                    Tampa, FL 33602<br />
+                    ATTN: Kania Law Offices PLLC
+                  </a>
+                  <a href="tel:+13522634219" className="text-lg leading-[160%] hover:text-blue-marine transition-colors block">
+                    T(352) 263-4219
+                  </a>
+                </div>
+              </div>
+              <a
+                href="mailto:rmkmgtholdings@gmail.com"
+                className="uppercase text-blue-marine tracking-[2px] font-inter text-sm font-medium hover:text-dark-blue transition-colors"
+              >
+                email us →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Spacer */}
+      <div className="h-32"></div>
 
       {/* CTA Section */}
-      <div className="w-full max-w-7xl mx-auto py-24 px-4 text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6">
-          Ready to Discuss Your Business or Property?
-        </h2>
-        <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-          Whether you&apos;re considering selling your small business or have a distressed commercial property,
-          let&apos;s explore how we can work together.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href="/contact"
-            className="px-8 py-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-          >
-            Get in Touch
-          </Link>
-          <Link
-            href="tel:+13522634219"
-            className="px-8 py-4 border-2 border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-          >
-            Call: (352) 263-4219
-          </Link>
+      <section className="w-full bg-blue-marine py-24">
+        <div className="max-w-[1120px] mx-auto px-[3.33%]">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+            <div className="max-w-2xl">
+              <p className="text-2xl leading-[150%] text-white">
+                Driven by ambition and resourcefulness, bringing expertise and a strong financial foundation to fuel growth and success.
+              </p>
+            </div>
+            <a
+              href="tel:+13522634219"
+              className="bg-white text-blue-marine px-12 py-4 font-inter font-medium hover:bg-blue-marine-05 transition-colors whitespace-nowrap"
+            >
+              Call Us
+            </a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   );
 }

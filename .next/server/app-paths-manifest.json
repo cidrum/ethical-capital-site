@@ -1,10 +1,10 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/(root)/about/page": "app/(root)/about/page.js",
   "/(root)/contact/page": "app/(root)/contact/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/(root)/page": "app/(root)/page.js",
   "/(root)/operator/page": "app/(root)/operator/page.js",
+  "/(root)/page": "app/(root)/page.js",
+  "/blog/page": "app/blog/page.js",
   "/(root)/industries/page": "app/(root)/industries/page.js",
+  "/(root)/about/page": "app/(root)/about/page.js",
   "/(root)/real-estate/page": "app/(root)/real-estate/page.js"
 }
