@@ -1,0 +1,37 @@
+{
+  "name": "ethical-capital-site",
+  "production_branch": "main",
+  "source": {
+    "type": "github",
+    "config": {
+      "owner": "cidrum",
+      "repo_name": "ethical-capital-site",
+      "production_branch": "main",
+      "pr_comments_enabled": true,
+      "deployments_enabled": true,
+      "production_deployments_enabled": true,
+      "preview_deployment_setting": "all"
+    }
+  },
+  "build_config": {
+    "build_command": "npm run build",
+    "destination_dir": ".next",
+    "root_dir": ""
+  },
+  "deployment_configs": {
+    "production": {
+      "env_vars": {
+        "WEB3FORMS_ACCESS_KEY": {
+          "type": "secret_text",
+          "value": "b23a8a1d-bd5b-4c12-8cbd-f226c01510aa"
+        },
+        "NODE_VERSION": {
+          "type": "plain_text",
+          "value": "18"
+        }
+      },
+      "compatibility_date": "2026-01-14",
+      "build_image_major_version": 2
+    }
+  }
+}
