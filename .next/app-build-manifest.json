@@ -12,15 +12,17 @@
       "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
       "static/chunks/117-5016d37515870149.js",
       "static/chunks/main-app-5c09a806ec672732.js",
-      "static/css/c676aa66cb0d3bca.css",
+      "static/css/b83476e3ef1f5112.css",
       "static/chunks/app/layout-859aae05bde33e7d.js"
     ],
-    "/(root)/about/page": [
+    "/(root)/industries/page": [
       "static/chunks/webpack-804324c9ea4c4782.js",
       "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
       "static/chunks/117-5016d37515870149.js",
       "static/chunks/main-app-5c09a806ec672732.js",
-      "static/chunks/app/(root)/about/page-360602431ef1944f.js"
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/878-7649a0881d2c7556.js",
+      "static/chunks/app/(root)/industries/page-295120b995b6dd22.js"
     ],
     "/(root)/layout": [
       "static/chunks/webpack-804324c9ea4c4782.js",
@@ -39,12 +41,29 @@
       "static/chunks/main-app-5c09a806ec672732.js",
       "static/chunks/app/(root)/contact/page-73ee6d1560588c89.js"
     ],
+    "/(root)/operator/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/878-7649a0881d2c7556.js",
+      "static/chunks/app/(root)/operator/page-08db383f57bf1f67.js"
+    ],
+    "/(root)/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/878-7649a0881d2c7556.js",
+      "static/chunks/app/(root)/page-dd366ee04fec8c77.js"
+    ],
     "/blog/page": [
       "static/chunks/webpack-804324c9ea4c4782.js",
       "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
       "static/chunks/117-5016d37515870149.js",
       "static/chunks/main-app-5c09a806ec672732.js",
-      "static/chunks/app/blog/page-8104fa7e836661f8.js"
+      "static/chunks/app/blog/page-71d48e2174a7ed1b.js"
     ],
     "/blog/layout": [
       "static/chunks/webpack-804324c9ea4c4782.js",
@@ -56,29 +75,6 @@
       "static/chunks/114-3c7a9c1f9f513352.js",
       "static/chunks/app/blog/layout-ef7bf9c570b5b306.js"
     ],
-    "/(root)/page": [
-      "static/chunks/webpack-804324c9ea4c4782.js",
-      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
-      "static/chunks/117-5016d37515870149.js",
-      "static/chunks/main-app-5c09a806ec672732.js",
-      "static/chunks/972-9cd95b7184ed68ce.js",
-      "static/chunks/878-7649a0881d2c7556.js",
-      "static/chunks/app/(root)/page-910c2ad8241d1de3.js"
-    ],
-    "/(root)/operator/page": [
-      "static/chunks/webpack-804324c9ea4c4782.js",
-      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
-      "static/chunks/117-5016d37515870149.js",
-      "static/chunks/main-app-5c09a806ec672732.js",
-      "static/chunks/app/(root)/operator/page-9c2ba907eab6117f.js"
-    ],
-    "/(root)/industries/page": [
-      "static/chunks/webpack-804324c9ea4c4782.js",
-      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
-      "static/chunks/117-5016d37515870149.js",
-      "static/chunks/main-app-5c09a806ec672732.js",
-      "static/chunks/app/(root)/industries/page-10a62365c017db5a.js"
-    ],
     "/(root)/real-estate/page": [
       "static/chunks/webpack-804324c9ea4c4782.js",
       "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
@@ -86,6 +82,15 @@
       "static/chunks/main-app-5c09a806ec672732.js",
       "static/chunks/972-9cd95b7184ed68ce.js",
       "static/chunks/app/(root)/real-estate/page-d95af3e7ac8a80c1.js"
+    ],
+    "/(root)/about/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/878-7649a0881d2c7556.js",
+      "static/chunks/app/(root)/about/page-b8398aeafdefa1d8.js"
     ]
   }
 }
