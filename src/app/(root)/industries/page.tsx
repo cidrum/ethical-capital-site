@@ -83,11 +83,11 @@ export default function IndustriesPage() {
                   Sub-Industries:
                 </h4>
                 <ul className="space-y-2 text-lg leading-[160%]">
-                  <li>• Medical Equipment Distribution</li>
-                  <li>• Surgical Supplies & Consumables</li>
-                  <li>• Healthcare Facility Services</li>
-                  <li>• Medical Device Sales & Support</li>
-                  <li>• Clinical Support Services</li>
+                  <li><Link href="/industries/medical-equipment-distribution" className="hover:text-blue-sky transition-colors">• Medical Equipment Distribution</Link></li>
+                  <li><Link href="/industries/surgical-supplies" className="hover:text-blue-sky transition-colors">• Surgical Supplies & Consumables</Link></li>
+                  <li><Link href="/industries/durable-medical-equipment" className="hover:text-blue-sky transition-colors">• Durable Medical Equipment (DME)</Link></li>
+                  <li><Link href="/industries/home-health-services" className="hover:text-blue-sky transition-colors">• Home Health Services</Link></li>
+                  <li><Link href="/industries/healthcare-staffing" className="hover:text-blue-sky transition-colors">• Healthcare Staffing & Recruiting</Link></li>
                 </ul>
               </div>
             </div>
@@ -104,11 +104,11 @@ export default function IndustriesPage() {
                   Sub-Industries:
                 </h4>
                 <ul className="space-y-2 text-lg leading-[160%]">
-                  <li>• Industrial Supplies Distribution</li>
-                  <li>• Commercial Equipment Wholesale</li>
-                  <li>• Specialty Products Distribution</li>
-                  <li>• Regional Distribution Networks</li>
-                  <li>• B2B Service Parts Distribution</li>
+                  <li><Link href="/industries/industrial-supplies" className="hover:text-blue-sky transition-colors">• Industrial Supplies & Equipment</Link></li>
+                  <li><Link href="/industries/building-materials" className="hover:text-blue-sky transition-colors">• Building Materials & Hardware</Link></li>
+                  <li><Link href="/industries/food-service-distribution" className="hover:text-blue-sky transition-colors">• Food Service Distribution</Link></li>
+                  <li><Link href="/industries/automotive-parts" className="hover:text-blue-sky transition-colors">• Automotive Parts & Accessories</Link></li>
+                  <li><Link href="/industries/janitorial-supplies" className="hover:text-blue-sky transition-colors">• Janitorial & Sanitation Supplies</Link></li>
                 </ul>
               </div>
             </div>
@@ -125,11 +125,11 @@ export default function IndustriesPage() {
                   Sub-Industries:
                 </h4>
                 <ul className="space-y-2 text-lg leading-[160%]">
-                  <li>• Commercial Asset Liquidation</li>
-                  <li>• Inventory Management Services</li>
-                  <li>• Equipment Auction Services</li>
-                  <li>• Surplus Asset Recovery</li>
-                  <li>• Business Closeout Services</li>
+                  <li><Link href="/industries/business-asset-liquidation" className="hover:text-blue-sky transition-colors">• Business Asset Liquidation</Link></li>
+                  <li><Link href="/industries/retail-store-closeout" className="hover:text-blue-sky transition-colors">• Retail Store Closeout Services</Link></li>
+                  <li><Link href="/industries/equipment-auctions" className="hover:text-blue-sky transition-colors">• Equipment & Machinery Auctions</Link></li>
+                  <li><Link href="/industries/inventory-clearance" className="hover:text-blue-sky transition-colors">• Inventory Clearance & Overstock</Link></li>
+                  <li><Link href="/industries/estate-liquidation" className="hover:text-blue-sky transition-colors">• Estate & Business Liquidation</Link></li>
                 </ul>
               </div>
             </div>
@@ -146,11 +146,11 @@ export default function IndustriesPage() {
                   Property Types:
                 </h4>
                 <ul className="space-y-2 text-lg leading-[160%]">
-                  <li>• Flex Warehouses (10,000-50,000 sq ft)</li>
-                  <li>• Office/Warehouse Combinations</li>
-                  <li>• Light Industrial Buildings</li>
-                  <li>• Distribution Centers</li>
-                  <li>• Manufacturing + Office Space</li>
+                  <li><Link href="/industries/flex-warehouses" className="hover:text-blue-sky transition-colors">• Flex Warehouses (10,000-50,000 sq ft)</Link></li>
+                  <li><Link href="/industries/distribution-centers" className="hover:text-blue-sky transition-colors">• Distribution Centers</Link></li>
+                  <li><Link href="/industries/light-industrial" className="hover:text-blue-sky transition-colors">• Light Industrial Properties</Link></li>
+                  <li><Link href="/industries/office-warehouse-combo" className="hover:text-blue-sky transition-colors">• Office/Warehouse Combo</Link></li>
+                  <li><Link href="/industries/manufacturing-facilities" className="hover:text-blue-sky transition-colors">• Manufacturing Facilities</Link></li>
                 </ul>
               </div>
               <Link

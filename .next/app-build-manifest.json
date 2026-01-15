@@ -12,17 +12,15 @@
       "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
       "static/chunks/117-5016d37515870149.js",
       "static/chunks/main-app-5c09a806ec672732.js",
-      "static/css/b83476e3ef1f5112.css",
+      "static/css/d4c968fdfff3a354.css",
       "static/chunks/app/layout-859aae05bde33e7d.js"
     ],
-    "/(root)/industries/page": [
+    "/(root)/contact/page": [
       "static/chunks/webpack-804324c9ea4c4782.js",
       "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
       "static/chunks/117-5016d37515870149.js",
       "static/chunks/main-app-5c09a806ec672732.js",
-      "static/chunks/972-9cd95b7184ed68ce.js",
-      "static/chunks/878-7649a0881d2c7556.js",
-      "static/chunks/app/(root)/industries/page-295120b995b6dd22.js"
+      "static/chunks/app/(root)/contact/page-73ee6d1560588c89.js"
     ],
     "/(root)/layout": [
       "static/chunks/webpack-804324c9ea4c4782.js",
@@ -34,12 +32,14 @@
       "static/chunks/114-3c7a9c1f9f513352.js",
       "static/chunks/app/(root)/layout-ebdaa8996ff77a02.js"
     ],
-    "/(root)/contact/page": [
+    "/(root)/industries/page": [
       "static/chunks/webpack-804324c9ea4c4782.js",
       "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
       "static/chunks/117-5016d37515870149.js",
       "static/chunks/main-app-5c09a806ec672732.js",
-      "static/chunks/app/(root)/contact/page-73ee6d1560588c89.js"
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/878-7649a0881d2c7556.js",
+      "static/chunks/app/(root)/industries/page-46f1afe39a7a10c9.js"
     ],
     "/(root)/operator/page": [
       "static/chunks/webpack-804324c9ea4c4782.js",
@@ -49,6 +49,15 @@
       "static/chunks/878-7649a0881d2c7556.js",
       "static/chunks/app/(root)/operator/page-08db383f57bf1f67.js"
     ],
+    "/(root)/about/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/878-7649a0881d2c7556.js",
+      "static/chunks/app/(root)/about/page-b8398aeafdefa1d8.js"
+    ],
     "/(root)/page": [
       "static/chunks/webpack-804324c9ea4c4782.js",
       "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
@@ -57,6 +66,14 @@
       "static/chunks/972-9cd95b7184ed68ce.js",
       "static/chunks/878-7649a0881d2c7556.js",
       "static/chunks/app/(root)/page-dd366ee04fec8c77.js"
+    ],
+    "/(root)/real-estate/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/real-estate/page-d84e0239e7def9f2.js"
     ],
     "/blog/page": [
       "static/chunks/webpack-804324c9ea4c4782.js",
@@ -75,22 +92,165 @@
       "static/chunks/114-3c7a9c1f9f513352.js",
       "static/chunks/app/blog/layout-ef7bf9c570b5b306.js"
     ],
-    "/(root)/real-estate/page": [
+    "/(root)/industries/automotive-parts/page": [
       "static/chunks/webpack-804324c9ea4c4782.js",
       "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
       "static/chunks/117-5016d37515870149.js",
       "static/chunks/main-app-5c09a806ec672732.js",
       "static/chunks/972-9cd95b7184ed68ce.js",
-      "static/chunks/app/(root)/real-estate/page-d95af3e7ac8a80c1.js"
+      "static/chunks/app/(root)/industries/automotive-parts/page-e2d30feafd5a3ffb.js"
     ],
-    "/(root)/about/page": [
+    "/(root)/industries/distribution-centers/page": [
       "static/chunks/webpack-804324c9ea4c4782.js",
       "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
       "static/chunks/117-5016d37515870149.js",
       "static/chunks/main-app-5c09a806ec672732.js",
       "static/chunks/972-9cd95b7184ed68ce.js",
-      "static/chunks/878-7649a0881d2c7556.js",
-      "static/chunks/app/(root)/about/page-b8398aeafdefa1d8.js"
+      "static/chunks/app/(root)/industries/distribution-centers/page-c8049ba0b5a576f9.js"
+    ],
+    "/(root)/industries/durable-medical-equipment/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/durable-medical-equipment/page-ffeaef269f532a8d.js"
+    ],
+    "/(root)/industries/building-materials/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/building-materials/page-8caf73180a6e6f8e.js"
+    ],
+    "/(root)/industries/business-asset-liquidation/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/business-asset-liquidation/page-e697b39cb7285071.js"
+    ],
+    "/(root)/industries/flex-warehouses/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/flex-warehouses/page-666da24c291d1a69.js"
+    ],
+    "/(root)/industries/equipment-auctions/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/equipment-auctions/page-a939023783482a2d.js"
+    ],
+    "/(root)/industries/food-service-distribution/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/food-service-distribution/page-e03c1c171a925030.js"
+    ],
+    "/(root)/industries/estate-liquidation/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/estate-liquidation/page-2d721a1ee27e45ea.js"
+    ],
+    "/(root)/industries/healthcare-staffing/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/healthcare-staffing/page-2bf5a900526e69ab.js"
+    ],
+    "/(root)/industries/home-health-services/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/home-health-services/page-79445657d9ed9022.js"
+    ],
+    "/(root)/industries/industrial-supplies/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/industrial-supplies/page-d1128dd41deb9c04.js"
+    ],
+    "/(root)/industries/inventory-clearance/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/inventory-clearance/page-68de1beb30a1ebd1.js"
+    ],
+    "/(root)/industries/janitorial-supplies/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/janitorial-supplies/page-920b3284ea06fe11.js"
+    ],
+    "/(root)/industries/light-industrial/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/light-industrial/page-1c1c3de2ed1729f0.js"
+    ],
+    "/(root)/industries/manufacturing-facilities/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/manufacturing-facilities/page-f94aa5b1c324310b.js"
+    ],
+    "/(root)/industries/medical-equipment-distribution/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/medical-equipment-distribution/page-4166911d2bbe0bbc.js"
+    ],
+    "/(root)/industries/office-warehouse-combo/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/office-warehouse-combo/page-025a95266d07e3be.js"
+    ],
+    "/(root)/industries/surgical-supplies/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/surgical-supplies/page-393c8481a723d95a.js"
+    ],
+    "/(root)/industries/retail-store-closeout/page": [
+      "static/chunks/webpack-804324c9ea4c4782.js",
+      "static/chunks/fd9d1056-1f1f859026f5f0fa.js",
+      "static/chunks/117-5016d37515870149.js",
+      "static/chunks/main-app-5c09a806ec672732.js",
+      "static/chunks/972-9cd95b7184ed68ce.js",
+      "static/chunks/app/(root)/industries/retail-store-closeout/page-f8a3c0c6718c20bb.js"
     ]
   }
 }
