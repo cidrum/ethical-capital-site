@@ -1,156 +1,152 @@
 import Link from "next/link";
-import Icons from "../global/icons";
-import { Heart } from "lucide-react";
-import Image from 'next/image';
+import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="flex flex-col relative items-center justify-center border-t border-border pt-16 pb-8 px-6 lg:px-8 w-full max-w-6xl mx-auto lg:pt-32">
-
-        <div className="hidden lg:block absolute -top-1/3 -right-1/4 bg-primary w-72 h-72 rounded-full -z-10 blur-[14rem]"></div>
-        <div className="hidden lg:block absolute bottom-0 -left-1/4 bg-primary w-72 h-72 rounded-full -z-10 blur-[14rem]"></div>
-
-        <div className="grid gap-8 xl:grid-cols-3 xl:gap-8 w-full">
-
-            <div className="flex flex-col items-start justify-start md:max-w-[200px]">
-                <div className="flex items-start">
-                        <Image 
-                          src="/icons/A-logo.png" 
-                          alt="Logo" 
-                          width={30} 
-                          height={30} 
-                          priority 
-                        />
-                </div>
-                <p className="text-muted-foreground mt-4 text-sm text-start">
-                    Build beautiful, functional websites, without writing code
-                </p>
-                <span className="mt-4 text-neutral-200 text-sm flex items-center">
-                    Made by Ayota with
-                    <Heart className="w-3.5 h-3.5 ml-1 fill-primary text-primary" />
-                </span>
-            </div>
-
-            <div className="grid-cols-2 gap-8 grid mt-16 xl:col-span-2 xl:mt-0">
-                <div className="md:grid md:grid-cols-2 md:gap-8">
-                    <div className="">
-                        <h3 className="text-base font-medium text-white">
-                            Product
-                        </h3>
-                        <ul className="mt-4 text-sm text-muted-foreground">
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Features
-                                </Link>
-                            </li>
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Pricing
-                                </Link>
-                            </li>
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Testimonials
-                                </Link>
-                            </li>
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Integration
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="mt-10 md:mt-0 flex flex-col">
-                        <h3 className="text-base font-medium text-white">
-                            Integrations
-                        </h3>
-                        <ul className="mt-4 text-sm text-muted-foreground">
-                            <li className="">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Facebook
-                                </Link>
-                            </li>
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Instagram
-                                </Link>
-                            </li>
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Twitter
-                                </Link>
-                            </li>
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    LinkedIn
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="md:grid md:grid-cols-2 md:gap-8">
-                    <div className="">
-                        <h3 className="text-base font-medium text-white">
-                            Resources
-                        </h3>
-                        <ul className="mt-4 text-sm text-muted-foreground">
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Blog
-                                </Link>
-                            </li>
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Case Studies
-                                </Link>
-                            </li>
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Support
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="mt-10 md:mt-0 flex flex-col">
-                        <h3 className="text-base font-medium text-white">
-                            Company
-                        </h3>
-                        <ul className="mt-4 text-sm text-muted-foreground">
-                            <li className="">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    About Us
-                                </Link>
-                            </li>
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Privacy Policy
-                                </Link>
-                            </li>
-                            <li className="mt-2">
-                                <Link href="" className="hover:text-foreground transition-all duration-300">
-                                    Terms & Conditions
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div className="mt-8 border-t border-border/40 pt-4 md:pt-8 md:flex md:items-center md:justify-between w-full">
-            <p className="text-sm text-muted-foreground mt-8 md:mt-0">
-                &copy; {new Date().getFullYear()} AstraAI INC. All rights reserved.
-            </p>
-            <Link 
-                href="https://github.com/ayotadev"
-                target="_blank"
-                className="text-sm text-white mt-8 md:mt-0 hover:text-white/80 transition outline-none" 
-            >
-                AyotaDev | GitHub
+    <footer className="w-full bg-dark-blue text-white">
+      <div className="max-w-[1728px] mx-auto px-[3.33%]">
+        {/* Main Footer Content */}
+        <div className="grid md:grid-cols-12 gap-12 py-16 border-b border-white-10">
+          {/* Logo and Tagline */}
+          <div className="md:col-span-4">
+            <Link href="/" className="inline-block mb-6">
+              <Image
+                src="/images/White-logo---no-background.png"
+                alt="Ethical Capital Logo"
+                width={160}
+                height={75}
+                className="w-40 h-auto"
+              />
             </Link>
+            <p className="text-white-70 text-base leading-relaxed mb-6">
+              Building a portfolio of successful businesses and valuable properties through
+              strategic acquisitions and proven operational expertise.
+            </p>
+            <div className="flex gap-4">
+              <a
+                href="https://twitter.com/kaniaryan"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center bg-white-10 hover:bg-blue-marine transition-colors rounded"
+              >
+                <Image src="/images/twitter-white.svg" alt="Twitter" width={20} height={20} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ryan-kania-82363031/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center bg-white-10 hover:bg-blue-marine transition-colors rounded"
+              >
+                <Image src="/images/linkedin-white.svg" alt="LinkedIn" width={20} height={20} />
+              </a>
+            </div>
+          </div>
+
+          {/* Navigation Links */}
+          <div className="md:col-span-2">
+            <h3 className="text-white font-inter text-sm uppercase tracking-wider mb-4 font-medium">
+              Company
+            </h3>
+            <ul className="space-y-3">
+              <li>
+                <Link href="/about" className="text-white-70 hover:text-white transition-colors text-sm">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/industries" className="text-white-70 hover:text-white transition-colors text-sm">
+                  Industries
+                </Link>
+              </li>
+              <li>
+                <Link href="/operator" className="text-white-70 hover:text-white transition-colors text-sm">
+                  Operator
+                </Link>
+              </li>
+              <li>
+                <Link href="/real-estate" className="text-white-70 hover:text-white transition-colors text-sm">
+                  Real Estate
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Acquisition Focus */}
+          <div className="md:col-span-3">
+            <h3 className="text-white font-inter text-sm uppercase tracking-wider mb-4 font-medium">
+              Acquisition Focus
+            </h3>
+            <ul className="space-y-3">
+              <li className="text-white-70 text-sm">
+                Healthcare Services
+              </li>
+              <li className="text-white-70 text-sm">
+                Wholesale Distribution
+              </li>
+              <li className="text-white-70 text-sm">
+                Liquidation Services
+              </li>
+              <li className="text-white-70 text-sm">
+                Distressed Commercial Real Estate
+              </li>
+              <li className="text-white-70 text-sm">
+                Flex Warehouses
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact Info */}
+          <div className="md:col-span-3">
+            <h3 className="text-white font-inter text-sm uppercase tracking-wider mb-4 font-medium">
+              Contact
+            </h3>
+            <div className="space-y-4">
+              <div>
+                <p className="text-white-70 text-sm mb-1">Tampa Office</p>
+                <a
+                  href="https://goo.gl/maps/vbeLVmMwXZugYRyR9"
+                  target="_blank"
+                  className="text-white hover:text-blue-sky transition-colors text-sm"
+                >
+                  610 E. Zack St, Suite 110-3072<br />
+                  Tampa, FL 33602
+                </a>
+              </div>
+              <div>
+                <a
+                  href="tel:+13522634219"
+                  className="text-white hover:text-blue-sky transition-colors text-sm block"
+                >
+                  (352) 263-4219
+                </a>
+              </div>
+              <div>
+                <a
+                  href="mailto:rmkmgtholdings@gmail.com"
+                  className="text-white hover:text-blue-sky transition-colors text-sm block"
+                >
+                  rmkmgtholdings@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
+        {/* Bottom Bar */}
+        <div className="py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-white-70 text-sm">
+            © {new Date().getFullYear()} Ethical Capital Group LLC. All rights reserved.
+          </p>
+          <div className="flex gap-6">
+            <Link href="/privacy-policy" className="text-white-70 hover:text-white transition-colors text-sm">
+              Privacy Policy
+            </Link>
+            <Link href="/contact" className="text-white-70 hover:text-white transition-colors text-sm">
+              Contact Us
+            </Link>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 }
