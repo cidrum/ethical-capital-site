@@ -26,6 +26,20 @@ export async function onRequestPost(context: { request: Request; env: Env }) {
 
     const WEB3FORMS_KEY = context.env.WEB3FORMS_ACCESS_KEY;
 
+    // Debug: check if env var exists
+    if (!WEB3FORMS_KEY) {
+      return new Response(
+        JSON.stringify({
+          error: "Web3Forms not configured",
+          debug: {
+            envVarExists: !!WEB3FORMS_KEY,
+            availableKeys: Object.keys(context.env || {})
+          }
+        }),
+        { status: 500, headers: { "Content-Type": "application/json" } }
+      );
+    }
+
     if (WEB3FORMS_KEY) {
       const formData = new FormData();
       formData.append("access_key", WEB3FORMS_KEY);
